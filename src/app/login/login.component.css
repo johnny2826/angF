@@ -1,0 +1,116 @@
+
+.bg{
+
+     background-position: center;
+
+    background-repeat: no-repeat;
+    /* background-size: cover;  */
+    width: 90%;
+    height: 90%;
+}
+
+.login-card {
+    max-width: 500px;
+    min-width: 400px;
+    padding: 50px;
+    margin-top: -36px;
+    position: revert;
+  }
+
+  .logo-card{
+
+    min-width: 100px;
+
+    max-width: 120px;
+
+  }
+
+  .center {
+
+    right: 50%;
+
+    bottom: 50%;
+
+    transform: translate(50%,50%);
+
+    position: absolute;
+
+ 
+
+}
+
+.example-form {
+
+    min-width: 150px;
+
+    max-width: 500px;
+
+    width: 100%;
+
+  }
+
+ 
+
+  .example-full-width {
+
+    width: 100%;
+
+  }
+
+  .inputCust{
+
+    background-color: whitesmoke;
+
+  }
+
+.btn:focus,.btn:active {
+
+    outline: none !important;
+
+    box-shadow: none;
+
+   
+
+ }
+
+ .dot {
+
+  height: 100px;
+
+  width: 100px;
+
+  background-color: white;
+
+  border-radius: 50%;
+
+  display: inline-block;
+
+  position: relative;
+
+  box-shadow: 10px;
+
+}
+
+.dot img{
+
+    margin: 0;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    -ms-transform: translate(-50%, -50%);
+
+    transform: translate(-50%, -50%);
+
+ 
+
+}
+
+.btn-success {
+
+  background-color: grey;
+
+}

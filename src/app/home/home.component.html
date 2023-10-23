@@ -1,0 +1,54 @@
+<mat-toolbar  style="background-color: grey;">
+    <button mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Header</span>
+  </mat-toolbar>
+  
+  <mat-drawer-container class="example-container" autosize>
+    <mat-drawer #sidenav class="example-sidenav" mode="side">
+      <mat-list>
+        <mat-list-item routerLink="/home/dashboard" routerLinkActive="active">
+            <mat-icon>dashboard</mat-icon>
+            <a>Dashboard</a>
+          </mat-list-item>
+
+          <mat-list-item routerLink="/home/users" routerLinkActive="active">
+            <mat-icon>people</mat-icon>
+            <a>Users</a>
+          </mat-list-item>
+
+          <mat-list-item routerLink="/home/tweet" routerLinkActive="active">
+            <mat-icon>message</mat-icon>
+            <a>Tweet</a>
+          </mat-list-item>
+
+          <mat-list-item routerLink="/home/spaces" routerLinkActive="active">
+            <mat-icon>meeting_room</mat-icon>
+            <a>Spaces</a>
+          </mat-list-item>
+
+          <mat-list-item routerLink="/home/stories" routerLinkActive="active">
+            <mat-icon>article</mat-icon>
+            <a>Stories</a>
+          </mat-list-item>
+
+          <mat-list-item routerLink="/home/chat" routerLinkActive="active">
+            <mat-icon>chat</mat-icon>
+            <a>Chat</a>
+          </mat-list-item>
+
+          <mat-list-item routerLink="/home/reports" routerLinkActive="active">
+            <mat-icon>bar_chart</mat-icon>
+            <a>Reports</a>
+          </mat-list-item>
+          
+      </mat-list>
+    </mat-drawer>
+  
+    <div class="example-sidenav-content">
+    <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-container>
+  
+
